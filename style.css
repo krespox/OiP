@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tableWrapper {
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  word-wrap: break-word; /* Dodane, aby zapobiec rozjeżdżaniu się tabeli */
+}
+
+/* Nowe style dla sumy godzin pod każdym dniem tygodnia */
+th.total {
+  text-align: center;
+}
+/* Dodatkowe style dla inputów w komórkach */
+table input {
+  width: 50px;
+  margin: 1px;
+}
+td.total {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Dodatkowe style dla nagłówka opiekuna */
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Nowy styl dla napisu "Tabela dla opiekuna" */
+.h2-container {
+  text-align: center;
+}
